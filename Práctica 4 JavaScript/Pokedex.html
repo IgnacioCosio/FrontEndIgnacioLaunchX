@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section class="fondoCompleto">
+        <img src="./img/Logo.png" class="logo" alt="Logo" width="280px" height="120px">
+        <img src="./img/Articuno.png" class="arti" alt="Articuno" width="200px">
+        <img src="./img/Moltres.png" class="mol" alt="Moltres" width="200px">
+        <img src="./img/Zapdos.png" class="zap" alt="Zapdos" width="200px">
+
+        <div class="imgPokemon">
+            <img src="./img/Pokeball.jpg" alt="Pokemon" id="pokeImg" width="220px"><br>
+        </div>
+        <div >
+            <input onkeypress="changeInput(`nom`)" onkeyup = "if(event.keyCode == 13) fetchPokemon()" on type="text" class="inNom" placeholder="Pokémon Name" name="pokeName" id="pokeName"><br>
+            <input onkeypress="changeInput(`num`)" onkeyup = "if(event.keyCode == 13) fetchPokemon()" type="text" class="inNum" placeholder="Pokémon Number" name="pokeNum" id="pokeNum"><br>
+        </div>
+        <div>
+            <button onclick="fetchPokemon()" class="cambPok">Find Pokemon</button>
+            <button onclick="Delete()" class="borrPok">Delete</button>
+            <button onclick="Mov(0)" class="navAba"></button>
+            <button onclick="Mov(1)" class="navArr"></button>
+            <button onclick="Mov(1)" class="navDer"></button>
+            <button onclick="Mov(0)" class="navIzq"></button>
+            <button id="labAbilities" class="labAbi"></button>
+            <button onclick="changeShiny(1)" class="shinyAzul"></button>
+            <button onclick="changeShiny(0)" class="shinyRojo"></button>
+            <button onclick="changePos()" class="botPos"></button>
+            <button id="Type1" class="type1"></button>
+            <button id="Type2" class="type2"></button>
+        </div>
+    </section>       
+</body>
+<footer>
+    <script src="./Pokedex.js"></script>
+</footer>
+</html>
