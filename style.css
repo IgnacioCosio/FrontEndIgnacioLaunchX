@@ -43,6 +43,7 @@ section{
     position: absolute;
     top: 280px;
     left: 1030px;
+    width: 300px;
     outline: none;
     border: rgba(8,64,53,255);
     background-color: rgba(8,64,53,255);
@@ -56,6 +57,7 @@ section{
     position: absolute;
     top: 350px;
     left: 1030px;
+    width: 300px;
     outline: none;
     border: rgba(8,64,53,255);
     background-color: rgba(8,64,53,255);
