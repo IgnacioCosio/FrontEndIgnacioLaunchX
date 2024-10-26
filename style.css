@@ -1,9 +1,9 @@
-section{
-    width: 1800px;
+section {
+    width: 1100px;
     height: 800px;
 }
 
-.fondoCompleto{
+.fondoCompleto {
     display: flex;
     background-image: url("./img/Pokedex\ Logo\ 2.png");
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ section{
 
 .logo {
     position: absolute;
-    left: 1180px;
+    left: 800px;
 }
 
 .arti {
@@ -33,34 +33,34 @@ section{
     top: 450px;
 }
 
-.imgPokemon{
+.imgPokemon {
     position: absolute;
     top: 256px;
-    left: 530px;
+    left: 180px;
 }
 
-.inNom{
+.inNom {
     position: absolute;
     top: 280px;
-    left: 1030px;
+    left: 700px;
     width: 300px;
     outline: none;
-    border: rgba(8,64,53,255);
-    background-color: rgba(8,64,53,255);
+    border: rgba(8, 64, 53, 255);
+    background-color: rgba(8, 64, 53, 255);
     color: white;
     font-size: 28px;
     border-radius: 5%;
     text-align: center;
 }
 
-.inNum{
+.inNum {
     position: absolute;
     top: 350px;
-    left: 1030px;
+    left: 700px;
     width: 300px;
     outline: none;
-    border: rgba(8,64,53,255);
-    background-color: rgba(8,64,53,255);
+    border: rgba(8, 64, 53, 255);
+    background-color: rgba(8, 64, 53, 255);
     color: white;
     font-size: 28px;
     border-radius: 5%;
@@ -70,32 +70,32 @@ section{
 .cambPok {
     position: absolute;
     top: 430px;
-    left: 1035px;
+    left: 685px;
     width: 345px;
     height: 95px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(37,126,196,255);
+    background: rgba(34, 196, 234, 255);
     color: black;
     font-size: 30px;
     font-weight: 800;
-    border: rgba(28,167,201,255);
+    border: rgba(28, 167, 201, 255);
     padding: 1rem 1.5rem;
 }
 
 .borrPok {
     position: absolute;
     top: 580px;
-    left: 1032px;
+    left: 682px;
     width: 142px;
     height: 48px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(109,117,115,255);
+    background: rgba(109, 117, 115, 255);
     color: black;
     font-size: 22px;
     font-weight: 600;
-    border: rgba(28,167,201,255);
+    border: rgba(28, 167, 201, 255);
     padding: 1rem 1.5rem;
     text-align: center;
 }
@@ -103,59 +103,59 @@ section{
 .navArr {
     position: absolute;
     top: 591px;
-    left: 782px;
+    left: 425px;
     width: 22px;
     height: 40px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(49,49,49,255);
-    border: rgba(49,49,49,255);
+    background: rgba(49, 49, 49, 255);
+    border: rgba(49, 49, 49, 255);
 }
 
 .navAba {
     position: absolute;
     top: 670px;
-    left: 782px;
+    left: 425px;
     width: 22px;
     height: 35px;
     cursor: pointer;
     display: inline-block;
-     background: rgba(49,49,49,255);
-    border: rgba(49,49,49,255);
+    background: rgba(49, 49, 49, 255);
+    border: rgba(49, 49, 49, 255);
 }
 
 .navDer {
     position: absolute;
     top: 640px;
-    left: 815px;
+    left: 460px;
     width: 35px;
     height: 22px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(49,49,49,255);
-    border: rgba(49,49,49,255);
+    background: rgba(49, 49, 49, 255);
+    border: rgba(49, 49, 49, 255);
 }
 
 .navIzq {
     position: absolute;
     top: 640px;
-    left: 735px;
+    left: 380px;
     width: 35px;
     height: 22px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(49,49,49,255);
-    border: rgba(49,49,49,255);
+    background: rgba(49, 49, 49, 255);
+    border: rgba(49, 49, 49, 255);
 }
 
 .labAbi {
     position: absolute;
     top: 668px;
-    left: 502px;
+    left: 155px;
     width: 168px;
     height: 78px;
-    background: rgba(95,196,128,255);
-    border: rgba(49,49,49,255);
+    background: rgba(95, 196, 128, 255);
+    border: rgba(49, 49, 49, 255);
     text-align: center;
     font-size: 22px;
     font-weight: 600;
@@ -164,64 +164,64 @@ section{
 .shinyAzul {
     position: absolute;
     top: 598px;
-    left: 626px;
+    left: 275px;
     width: 70px;
     height: 12px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(11,112,130,255);
-    border: rgba(11,112,130,255);
+    background: rgba(11, 112, 130, 255);
+    border: rgba(11, 112, 130, 255);
 }
 
 .shinyRojo {
     position: absolute;
     top: 598px;
-    left: 520px;
+    left: 170px;
     width: 70px;
     height: 12px;
     cursor: pointer;
     display: inline-block;
-    background: rgba(206,3,33,255);
-    border: rgba(206,3,33,255);
+    background: rgba(206, 3, 33, 255);
+    border: rgba(206, 3, 33, 255);
 }
 
 .botPos {
     position: absolute;
     top: 580px;
-    left: 438px;
+    left: 80px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
-    background: rgba(44,44,44,255);
-    border: rgba(44,44,44,255);
+    background: rgba(44, 44, 44, 255);
+    border: rgba(44, 44, 44, 255);
 }
 
 .type1 {
     position: absolute;
     top: 685px;
-    left: 1032px;
+    left: 682px;
     width: 155px;
     height: 45px;
-    background: rgba(8,64,53,255);
+    background: rgba(8, 64, 53, 255);
     color: white;
     font-size: 22px;
     font-weight: 600;
-    border: rgba(8,64,53,255);
+    border: rgba(8, 64, 53, 255);
     text-align: center;
 }
 
 .type2 {
     position: absolute;
     top: 685px;
-    left: 1224px;
+    left: 880px;
     width: 155px;
     height: 45px;
-    background: rgba(8,64,53,255);
+    background: rgba(8, 64, 53, 255);
     color: white;
     font-size: 22px;
     font-weight: 600;
-    border: rgba(8,64,53,255);
+    border: rgba(8, 64, 53, 255);
     text-align: center;
 }
